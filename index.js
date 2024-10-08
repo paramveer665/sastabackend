@@ -52,6 +52,6 @@ app.get("/git", (req, res) => {
   res.send(data);
 });
 
-app.listen(process.env.port, () => {
+app.listen(port, () => {
   console.log(`app is listening on port ${process.env.port}`);
 });
